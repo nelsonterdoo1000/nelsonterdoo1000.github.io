@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ /* .container {
+    padding: 2rem;
+ }
+
+ .slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+ }
+
+ .slider {
+   display: flex;
+   aspect-ratio: 16 / 9;
+   overflow-x: hidden;
+   scroll-snap-type: x mandatory;
+   scroll-behavior: smooth;
+   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0 ,0%, 0%, 0.25);
+   border-radius: 0.5rem;
+ }
+
+ .slider img {
+   flex: 1 0 100%;
+   scroll-snap-align: start;
+   object-fit: cover;
+ }
+ 
+ .slider-nav {
+   display: flex;
+   column-gap: 1rem;
+   position: absolute;
+   bottom: 1.25rem;
+   left: 50%;
+   transform: translate(-50%);
+   z-index: 1;
+ }
+ .slider-nav a {
+   width: 0.5rem;
+   height: 0.5rem;
+   border-radius: 50%;
+   background-color: #fff;
+   opacity: 0.75;
+   transition: opacity ease 250ms;
+ }
+
+ .slider-nav a:hover {
+   opacity: 1;
+ } */
+
+ header{
+  height: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(0, 68%, 94%, 0.805);
+  box-shadow: 0.5rem 0.5rem 0.5rem -0.75rem hsla(0, 68%, 94%, 0.805);
+  position: sticky;
+  top: 0;
+ }
+ header ul li {
+  display: inline;
+  margin-inline: 20px;
+  width: 200px;
+  padding: 5px;
+ }
+ header ul li a {
+  font-size: 2rem;
+ }
+
+ .hero {
+  background-color:rgba(0, 0, 0, 0.1);
+  color: #fff;
+  background-image: url(../Images/slide1.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0.5rem 0.5rem 0.5rem -0.75rem hsla(0 ,0%, 0%, 0.25);
+ }
+
+ .container1 {
+  /* max-width: 960px; */
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  margin-top: 20px;
+
+  /* border-top:1px solid #333; */
+  
+ }
+
+ .container1 .staff-profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+ }
+ .container1 .staff-profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .container1 .team_lead {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  
+ }
+ .container1 .profile-pic {
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px 2px ;
+ }
+
+ .container1 h1,h2,h3 {
+  font-size: 2rem;
+ }
+ .Team_section {
+  box-shadow:0.5rem 0.5rem 5px 0.3rem hsla(0 ,0%, 0%, 0.2);
+  height: 500px;
+ }
+ .inner-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+ }
+ .inner-container .offscreen {
+  position: absolute;
+  left: -10000px;
+ }
+ .inner-container .intro {
+  font-size: 300%;
+  text-shadow: 0.5rem 0.5rem 0.5rem #333;
+ }
+ .inner-container .intro .nowrap {
+  white-space: wrap;
+ }
+ .container1 .ProfileImage {
+  border-radius: 50%;
+  border: 10px solid #fff
+ }
+
+ form {
+  margin-top: 10px;
+ }
+ .container1 form input {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border-color: #fff;
+  opacity: 0.9;
+ }
+ .service-head {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+  /* margin-bottom: 100px; */
+ }
+ .services {
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+  gap: 20px;
+  justify-content: center;
+  box-shadow:0.5rem 0.5rem 5px 0.3rem hsla(0 ,0%, 0%, 0.2);
+  height: 500px;
+  padding-top: 80px;
+ }
+ .services .first, .second, .third, .fourth {
+  width: 20%;
+  border-radius: 10px;
+  border: 2px solid #333;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 0 0 5px ;
+ }
+
+ .services .first, .second, .third, .fourth {
+  text-align: center;
+ }
+footer {
+  background-color:#074f57;
+  color: #fff;
+}
+ .footer {
+  display: flex;
+  margin-top: 300px;
+  gap: 20px;
+  
+  height: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+ }
+ .footer .section1, .footer .section2, .footer .section3, .footer .section4 {
+  width: 400px;
+ }
+ .footer .section2 ul li {
+  list-style-type: none;
+ }
+ footer .copyright {
+  text-align: center;
+  padding-bottom: 20px;
+  
+ }
